@@ -30,17 +30,31 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Within and Without</dc:title>
 		<meta property="file-as" refines="#title">Within and Without</meta>
-		<dc:subject id="subject-1">Scottish poetry -- 19th century</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Dramatic Poem</dc:title>
+		<meta property="file-as" refines="#subtitle">Dramatic Poem, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Within and Without: A Dramatic Poem</dc:title>
+		<meta property="file-as" refines="#fulltitle">Within and Without</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
+		<dc:subject id="subject-1">Christian poetry, Scottish</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">sh2008000854</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">DESCRIPTION</meta>
+		<meta property="term" refines="#subject-1">sh2008000395</meta>
+		<dc:subject id="subject-2">Scottish poetry -- 19th century</dc:subject>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2008000854</meta>
+		<dc:subject id="subject-3">Verse drama, English</dc:subject>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85142871</meta>
+		<meta property="schema:genre">Drama</meta>
+		<meta property="schema:abstract">A spiritually unfulfilled monk goes on a journey to rescue a woman from his past.</meta>
 		<dc:description>
-			LONG_DESCRIPTION
+			&lt;p&gt;Brother Julian is far from an exemplary monk. He takes no joy in monastery life, feels no connection with God, and continuously dwells on the mysterious life he left behind. When he learns that a woman from his past needs his help, he must choose between his duty to the Church and his duty to his concience.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/george-macdonald"&gt;George MacDonald’s&lt;/a&gt; earliest published work, and his only poetic drama, &lt;i&gt;Within and Without&lt;/i&gt; chronicles a monk’s journey to know God as he experiences love, death, and joy. Notably, it contains one of MacDonald’s earliest works of fantasy prose, in the form of a Julian’s reading of an excerpt from the book, &lt;i&gt;The Singers&lt;/i&gt;.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/9543</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/011821572</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
 		<link href="https://en.wikipedia.org/wiki/Within_and_Without" rel="schema:sameAs"/>
@@ -49,30 +63,26 @@
 		<link href="https://github.com/standardebooks/george-macdonald_within-and-without" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">George MacDonald</dc:creator>
 		<meta property="file-as" refines="#author">MacDonald, George</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<link href="https://en.wikipedia.org/wiki/George_MacDonald" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n78096948.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<dc:contributor id="artist">Ture Nikolaus Cederström</dc:contributor>
+		<meta property="file-as" refines="#artist">Cederström, Ture Nikolaus</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">Jonathan Ingram</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Ingram, Jonathan</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Robert Prince</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Prince, Robert</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
 		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">C. B. Bowman</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Bowman, C. B.</meta>
+		<link href="https://github.com/cbbowman" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
